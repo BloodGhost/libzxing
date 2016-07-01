@@ -1,0 +1,187 @@
+﻿生成启动时间为 2016/5/6 13:51:13。
+     1>项目“E:\software data\zxing - 副本\cli\bluid\libzxing.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在对“libzxing.dir\Debug\libzxing.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         Building Custom Rule E:/software data/zxing/CMakeLists.txt
+         CMake does not need to re-run because E:\software data\zxing\cli\bluid\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Pro software\VS2010\VC\bin\CL.exe /c /I"E:\software data\zxing\.\core\lib\win32" /I"E:\software data\zxing\.\core\src" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D NO_ICONV=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /GR /Fo"libzxing.dir\Debug\\" /Fd"libzxing.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\core\src\zxing\aztec\AztecDetectorResult.cpp ..\..\core\src\zxing\aztec\AztecReader.cpp ..\..\core\src\zxing\BarcodeFormat.cpp ..\..\core\src\zxing\Binarizer.cpp ..\..\core\src\zxing\BinaryBitmap.cpp ..\..\core\src\zxing\ChecksumException.cpp ..\..\core\src\zxing\common\BitArray.cpp ..\..\core\src\zxing\common\BitArrayIO.cpp ..\..\core\src\zxing\common\BitMatrix.cpp ..\..\core\src\zxing\common\BitSource.cpp ..\..\core\src\zxing\common\CharacterSetECI.cpp ..\..\core\src\zxing\common\DecoderResult.cpp ..\..\core\src\zxing\common\detector\MonochromeRectangleDetector.cpp ..\..\core\src\zxing\common\detector\WhiteRectangleDetector.cpp ..\..\core\src\zxing\common\DetectorResult.cpp ..\..\core\src\zxing\common\GlobalHistogramBinarizer.cpp ..\..\core\src\zxing\common\GreyscaleLuminanceSource.cpp ..\..\core\src\zxing\common\GreyscaleRotatedLuminanceSource.cpp ..\..\core\src\zxing\common\GridSampler.cpp ..\..\core\src\zxing\common\HybridBinarizer.cpp ..\..\core\src\zxing\common\IllegalArgumentException.cpp ..\..\core\src\zxing\common\PerspectiveTransform.cpp ..\..\core\src\zxing\common\reedsolomon\GenericGF.cpp ..\..\core\src\zxing\common\reedsolomon\GenericGFPoly.cpp ..\..\core\src\zxing\common\reedsolomon\ReedSolomonDecoder.cpp ..\..\core\src\zxing\common\reedsolomon\ReedSolomonException.cpp ..\..\core\src\zxing\common\Str.cpp ..\..\core\src\zxing\common\StringUtils.cpp ..\..\core\src\zxing\datamatrix\DataMatrixReader.cpp ..\..\core\src\zxing\datamatrix\detector\CornerPoint.cpp ..\..\core\src\zxing\datamatrix\detector\DetectorException.cpp ..\..\core\src\zxing\DecodeHints.cpp ..\..\core\src\zxing\Exception.cpp ..\..\core\src\zxing\FormatException.cpp ..\..\core\src\zxing\InvertedLuminanceSource.cpp ..\..\core\src\zxing\LuminanceSource.cpp ..\..\core\src\zxing\multi\ByQuadrantReader.cpp ..\..\core\src\zxing\multi\GenericMultipleBarcodeReader.cpp ..\..\core\src\zxing\multi\MultipleBarcodeReader.cpp ..\..\core\src\zxing\multi\qrcode\detector\MultiDetector.cpp ..\..\core\src\zxing\multi\qrcode\detector\MultiFinderPatternFinder.cpp ..\..\core\src\zxing\multi\qrcode\QRCodeMultiReader.cpp ..\..\core\src\zxing\MultiFormatReader.cpp ..\..\core\src\zxing\oned\CodaBarReader.cpp ..\..\core\src\zxing\oned\Code128Reader.cpp ..\..\core\src\zxing\oned\Code39Reader.cpp ..\..\core\src\zxing\oned\Code93Reader.cpp ..\..\core\src\zxing\oned\EAN13Reader.cpp ..\..\core\src\zxing\oned\EAN8Reader.cpp ..\..\core\src\zxing\oned\ITFReader.cpp ..\..\core\src\zxing\oned\MultiFormatOneDReader.cpp ..\..\core\src\zxing\oned\MultiFormatUPCEANReader.cpp ..\..\core\src\zxing\oned\OneDReader.cpp ..\..\core\src\zxing\oned\OneDResultPoint.cpp ..\..\core\src\zxing\oned\UPCAReader.cpp ..\..\core\src\zxing\oned\UPCEANReader.cpp ..\..\core\src\zxing\oned\UPCEReader.cpp ..\..\core\src\zxing\pdf417\decoder\ec\ErrorCorrection.cpp ..\..\core\src\zxing\pdf417\decoder\ec\ModulusGF.cpp ..\..\core\src\zxing\pdf417\decoder\ec\ModulusPoly.cpp ..\..\core\src\zxing\pdf417\detector\LinesSampler.cpp ..\..\core\src\zxing\pdf417\PDF417Reader.cpp ..\..\core\src\zxing\qrcode\decoder\DataMask.cpp ..\..\core\src\zxing\qrcode\decoder\Mode.cpp ..\..\core\src\zxing\qrcode\detector\AlignmentPattern.cpp ..\..\core\src\zxing\qrcode\detector\AlignmentPatternFinder.cpp ..\..\core\src\zxing\qrcode\detector\FinderPattern.cpp ..\..\core\src\zxing\qrcode\detector\FinderPatternFinder.cpp ..\..\core\src\zxing\qrcode\detector\FinderPatternInfo.cpp ..\..\core\src\zxing\qrcode\ErrorCorrectionLevel.cpp ..\..\core\src\zxing\qrcode\FormatInformation.cpp ..\..\core\src\zxing\qrcode\QRCodeReader.cpp ..\..\core\src\zxing\Reader.cpp ..\..\core\src\zxing\Result.cpp ..\..\core\src\zxing\ResultIO.cpp ..\..\core\src\zxing\ResultPoint.cpp ..\..\core\src\zxing\ResultPointCallback.cpp ..\..\core\src\bigint\BigInteger.cc ..\..\core\src\bigint\BigIntegerAlgorithms.cc ..\..\core\src\bigint\BigIntegerUtils.cc ..\..\core\src\bigint\BigUnsigned.cc ..\..\core\src\bigint\BigUnsignedInABase.cc
+         AztecDetectorResult.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\aztec\AztecDetectorResult.cpp”: No such file or directory
+         AztecReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\aztec\AztecReader.cpp”: No such file or directory
+         BarcodeFormat.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\BarcodeFormat.cpp”: No such file or directory
+         Binarizer.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\Binarizer.cpp”: No such file or directory
+         BinaryBitmap.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\BinaryBitmap.cpp”: No such file or directory
+         ChecksumException.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\ChecksumException.cpp”: No such file or directory
+         BitArray.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\BitArray.cpp”: No such file or directory
+         BitArrayIO.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\BitArrayIO.cpp”: No such file or directory
+         BitMatrix.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\BitMatrix.cpp”: No such file or directory
+         BitSource.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\BitSource.cpp”: No such file or directory
+         CharacterSetECI.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\CharacterSetECI.cpp”: No such file or directory
+         DecoderResult.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\DecoderResult.cpp”: No such file or directory
+         MonochromeRectangleDetector.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\detector\MonochromeRectangleDetector.cpp”: No such file or directory
+         WhiteRectangleDetector.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\detector\WhiteRectangleDetector.cpp”: No such file or directory
+         DetectorResult.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\DetectorResult.cpp”: No such file or directory
+         GlobalHistogramBinarizer.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\GlobalHistogramBinarizer.cpp”: No such file or directory
+         GreyscaleLuminanceSource.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\GreyscaleLuminanceSource.cpp”: No such file or directory
+         GreyscaleRotatedLuminanceSource.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\GreyscaleRotatedLuminanceSource.cpp”: No such file or directory
+         GridSampler.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\GridSampler.cpp”: No such file or directory
+         HybridBinarizer.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\HybridBinarizer.cpp”: No such file or directory
+         正在生成代码...
+         正在编译...
+         IllegalArgumentException.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\IllegalArgumentException.cpp”: No such file or directory
+         PerspectiveTransform.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\PerspectiveTransform.cpp”: No such file or directory
+         GenericGF.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\reedsolomon\GenericGF.cpp”: No such file or directory
+         GenericGFPoly.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\reedsolomon\GenericGFPoly.cpp”: No such file or directory
+         ReedSolomonDecoder.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\reedsolomon\ReedSolomonDecoder.cpp”: No such file or directory
+         ReedSolomonException.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\reedsolomon\ReedSolomonException.cpp”: No such file or directory
+         Str.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\Str.cpp”: No such file or directory
+         StringUtils.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\common\StringUtils.cpp”: No such file or directory
+         DataMatrixReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\datamatrix\DataMatrixReader.cpp”: No such file or directory
+         CornerPoint.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\datamatrix\detector\CornerPoint.cpp”: No such file or directory
+         DetectorException.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\datamatrix\detector\DetectorException.cpp”: No such file or directory
+         DecodeHints.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\DecodeHints.cpp”: No such file or directory
+         Exception.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\Exception.cpp”: No such file or directory
+         FormatException.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\FormatException.cpp”: No such file or directory
+         InvertedLuminanceSource.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\InvertedLuminanceSource.cpp”: No such file or directory
+         LuminanceSource.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\LuminanceSource.cpp”: No such file or directory
+         ByQuadrantReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\multi\ByQuadrantReader.cpp”: No such file or directory
+         GenericMultipleBarcodeReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\multi\GenericMultipleBarcodeReader.cpp”: No such file or directory
+         MultipleBarcodeReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\multi\MultipleBarcodeReader.cpp”: No such file or directory
+         MultiDetector.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\multi\qrcode\detector\MultiDetector.cpp”: No such file or directory
+         正在生成代码...
+         正在编译...
+         MultiFinderPatternFinder.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\multi\qrcode\detector\MultiFinderPatternFinder.cpp”: No such file or directory
+         QRCodeMultiReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\multi\qrcode\QRCodeMultiReader.cpp”: No such file or directory
+         MultiFormatReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\MultiFormatReader.cpp”: No such file or directory
+         CodaBarReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\CodaBarReader.cpp”: No such file or directory
+         Code128Reader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\Code128Reader.cpp”: No such file or directory
+         Code39Reader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\Code39Reader.cpp”: No such file or directory
+         Code93Reader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\Code93Reader.cpp”: No such file or directory
+         EAN13Reader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\EAN13Reader.cpp”: No such file or directory
+         EAN8Reader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\EAN8Reader.cpp”: No such file or directory
+         ITFReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\ITFReader.cpp”: No such file or directory
+         MultiFormatOneDReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\MultiFormatOneDReader.cpp”: No such file or directory
+         MultiFormatUPCEANReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\MultiFormatUPCEANReader.cpp”: No such file or directory
+         OneDReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\OneDReader.cpp”: No such file or directory
+         OneDResultPoint.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\OneDResultPoint.cpp”: No such file or directory
+         UPCAReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\UPCAReader.cpp”: No such file or directory
+         UPCEANReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\UPCEANReader.cpp”: No such file or directory
+         UPCEReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\oned\UPCEReader.cpp”: No such file or directory
+         ErrorCorrection.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\pdf417\decoder\ec\ErrorCorrection.cpp”: No such file or directory
+         ModulusGF.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\pdf417\decoder\ec\ModulusGF.cpp”: No such file or directory
+         ModulusPoly.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\pdf417\decoder\ec\ModulusPoly.cpp”: No such file or directory
+         正在生成代码...
+         正在编译...
+         LinesSampler.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\pdf417\detector\LinesSampler.cpp”: No such file or directory
+         PDF417Reader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\pdf417\PDF417Reader.cpp”: No such file or directory
+         DataMask.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\qrcode\decoder\DataMask.cpp”: No such file or directory
+         Mode.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\qrcode\decoder\Mode.cpp”: No such file or directory
+         AlignmentPattern.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\qrcode\detector\AlignmentPattern.cpp”: No such file or directory
+         AlignmentPatternFinder.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\qrcode\detector\AlignmentPatternFinder.cpp”: No such file or directory
+         FinderPattern.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\qrcode\detector\FinderPattern.cpp”: No such file or directory
+         FinderPatternFinder.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\qrcode\detector\FinderPatternFinder.cpp”: No such file or directory
+         FinderPatternInfo.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\qrcode\detector\FinderPatternInfo.cpp”: No such file or directory
+         ErrorCorrectionLevel.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\qrcode\ErrorCorrectionLevel.cpp”: No such file or directory
+         FormatInformation.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\qrcode\FormatInformation.cpp”: No such file or directory
+         QRCodeReader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\qrcode\QRCodeReader.cpp”: No such file or directory
+         Reader.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\Reader.cpp”: No such file or directory
+         Result.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\Result.cpp”: No such file or directory
+         ResultIO.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\ResultIO.cpp”: No such file or directory
+         ResultPoint.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\ResultPoint.cpp”: No such file or directory
+         ResultPointCallback.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\zxing\ResultPointCallback.cpp”: No such file or directory
+         BigInteger.cc
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\bigint\BigInteger.cc”: No such file or directory
+         BigIntegerAlgorithms.cc
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\bigint\BigIntegerAlgorithms.cc”: No such file or directory
+         BigIntegerUtils.cc
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\bigint\BigIntegerUtils.cc”: No such file or directory
+         正在生成代码...
+         正在编译...
+         BigUnsigned.cc
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\bigint\BigUnsigned.cc”: No such file or directory
+         BigUnsignedInABase.cc
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\core\src\bigint\BigUnsignedInABase.cc”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\software data\zxing - 副本\cli\bluid\libzxing.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.98
